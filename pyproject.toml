@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cogmap-urban-sim"
+version = "2.0.0"
+description = "Older-adult dynamic cognitive-map simulation with activity-generated face-to-face information"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Dongzhi Luo"}]
+license = {text = "MIT"}
+dependencies = ["shapely>=2.0", "networkx>=3.2", "certifi>=2024.8.30"]
+
+[project.optional-dependencies]
+gis = ["pyshp>=2.3.1", "pyproj>=3.6"]
+doubao = []
+openai = ["openai>=1.68.0"]
+full = ["pyshp>=2.3.1", "pyproj>=3.6", "shapely>=2.0", "networkx>=3.2"]
+
+[project.scripts]
+cogmap-sim = "cogmap_sim.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+cogmap_sim = ["static/*.html"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

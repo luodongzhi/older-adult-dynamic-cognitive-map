@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+*.egg-info/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Secrets and local credentials
+api.txt
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Generated simulation results
+output/
+tmp/
+rp_work/
+*.log
+*.db
+*_dashboard.html
+
+# Private empirical data
+data/private/
+data/raw/
+gps_data/
+participant_data/
+
+# Regenerable map caches and locks
+map_data/*.lock
+map_data/imported_map.json
