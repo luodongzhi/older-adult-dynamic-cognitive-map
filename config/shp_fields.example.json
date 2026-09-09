@@ -1,0 +1,22 @@
+{
+  "edge_id": "ROAD_ID",
+  "from_node": "FROM_ID",
+  "to_node": "TO_ID",
+  "status": "STATUS",
+  "travel_time": "TRAVEL_MIN",
+  "aoi_id": "AOI_ID",
+  "name": "NAME",
+  "function": "FUNCTION",
+  "access_node": "NODE_ID",
+  "entrance_id": "ENT_ID",
+  "aoi_ref": "AOI_ID",
+  "conspicuity": "VISIBLE",
+  "object_id": "OBJECT_ID",
+  "opacity": "OPACITY",
+  "object_type": "TYPE",
+  "sign_id": "SIGN_ID",
+  "target_id": "TARGET_ID",
+  "facing_deg": "FACING_DEG",
+  "range_m": "RANGE_M",
+  "credibility": "CREDIBILITY"
+}

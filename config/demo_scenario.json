@@ -1,0 +1,13 @@
+{
+  "scenario_id": "demo_central_link",
+  "description": "Synthetic district: a new pedestrian link, one street closure, and an industrial-to-park conversion.",
+  "end_day": 30,
+  "agent_count": 3,
+  "random_seed": 42,
+  "model_type": "cognitive",
+  "behavior_driver": "doubao",
+  "llm_model": "doubao-seed-2-1-pro-260628",
+  "snapshot_interval": 5,
+  "agent_groups": ["explorers", "routine_commuters", "safety_sensitive"],
+  "interventions": ["ROAD_OPEN", "ROAD_CLOSE", "AOI_FUNCTION_CHANGE"]
+}

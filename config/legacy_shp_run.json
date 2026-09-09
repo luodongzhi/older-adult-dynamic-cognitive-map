@@ -1,0 +1,50 @@
+{
+  "roads_shp": "map_data/road_real.shp",
+  "aois_shp": "map_data/actual_map.shp",
+  "nodes_shp": null,
+  "entrances_shp": null,
+  "occluders_shp": null,
+  "signage_shp": null,
+  "field_mapping": {
+    "edge_id": "ROAD_ID",
+    "aoi_id": "aoi_id",
+    "function": "function",
+    "name": "name"
+  },
+  "snap_tolerance": 0.5,
+  "map_cache": "map_data/imported_map.json",
+  "interventions": "map_data/interventions.json",
+  "agent_repository": "agents",
+  "agents": [
+    {
+      "agent_id": "A001_explorer",
+      "home_aoi_id": "1",
+      "routine_anchor_aoi_id": "9"
+    },
+    {
+      "agent_id": "A002_commuter",
+      "home_aoi_id": "3",
+      "routine_anchor_aoi_id": "7"
+    },
+    {
+      "agent_id": "A003_cautious",
+      "home_aoi_id": "12",
+      "routine_anchor_aoi_id": "9"
+    }
+  ],
+  "api_file": "api.txt",
+  "llm_provider": "doubao",
+  "llm_model": "doubao-seed-2-1-pro-260628",
+  "model_type": "dynamic_cognitive",
+  "directional_vision_enabled": true,
+  "direct_experience_enabled": true,
+  "face_to_face_enabled": true,
+  "days": 10,
+  "seed": 42,
+  "experiment_id": "pycharm_doubao",
+  "output_database": "output/pycharm_doubao.db",
+  "start_dashboard": true,
+  "open_browser": true,
+  "dashboard_host": "127.0.0.1",
+  "dashboard_port": 8765
+}

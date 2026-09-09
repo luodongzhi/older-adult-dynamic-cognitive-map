@@ -1,0 +1,16 @@
+[
+  {
+    "intervention_id": "INT_001",
+    "effective_day": 0,
+    "operation_type": "ROAD_OPEN",
+    "target_type": "ROAD_EDGE",
+    "target_id": "YOUR_EDGE_ID",
+    "before_value": "CLOSED",
+    "after_value": "OPEN",
+    "visibility_level": 0.8,
+    "announcement_level": 0.0,
+    "visual_salience": 0.8,
+    "official_announcement": 0.0,
+    "signage_support": 0.0
+  }
+]
