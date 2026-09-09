@@ -1,0 +1,91 @@
+{
+  "roads_shp": "osmmap/processed/roads.shp",
+  "aois_shp": "osmmap/processed/aois.shp",
+  "nodes_shp": "osmmap/processed/nodes.shp",
+  "entrances_shp": "osmmap/processed/entrances.shp",
+  "occluders_shp": "osmmap/processed/buildings.shp",
+  "signage_shp": null,
+  "field_mapping": {
+    "edge_id": "ROAD_ID",
+    "from_node": "FROM_ID",
+    "to_node": "TO_ID",
+    "status": "STATUS",
+    "travel_time": "TRAVEL_M",
+    "visibility": "VISIBILITY",
+    "safety": "SAFETY",
+    "comfort": "COMFORT",
+    "node_id": "NODE_ID",
+    "road_name": "NAME",
+    "road_class": "ROAD_CLASS",
+    "aoi_id": "AOI_ID",
+    "name": "NAME",
+    "function": "FUNCTION",
+    "access_node": "ACCESS_NOD",
+    "attractiveness": "ATTRACT",
+    "feature_kind": "FEATURE",
+    "entrance_id": "ENTRY_ID",
+    "aoi_ref": "AOI_ID",
+    "conspicuity": "VISIBLE",
+    "object_id": "OBJECT_ID",
+    "opacity": "OPACITY",
+    "object_type": "OBJ_TYPE"
+  },
+  "snap_tolerance": 0.5,
+  "map_cache": "osmmap/processed/imported_map.json",
+  "osm_source": "osmmap/map.osm",
+  "api_file": "api.txt",
+  "llm_provider": "doubao",
+  "llm_model": "doubao-seed-2-1-pro-260628",
+  "run_research_suite": true,
+  "research_models": [
+    "B0",
+    "B1",
+    "M"
+  ],
+  "model_label": "M",
+  "scenario_id": "osm_older_adult_neighbourhood",
+  "minimum_agent_age": 60,
+  "directional_vision_enabled": true,
+  "direct_experience_enabled": true,
+  "face_to_face_enabled": true,
+  "copresence_min_overlap_minutes": 8.0,
+  "max_reports_per_conversation": 2,
+  "export_research_csv": true,
+  "days": 10,
+  "seed": 42,
+  "experiment_id": "osm_older_adults",
+  "output_database": "output/osm_older_adults.db",
+  "start_dashboard": true,
+  "open_browser": true,
+  "dashboard_host": "127.0.0.1",
+  "dashboard_port": 8765,
+  "agent_binding_mode": "generated",
+  "agent_bindings_file": "osmmap/processed/agent_bindings.json",
+  "interventions": "osmmap/processed/interventions.json",
+  "agents": [
+    {
+      "agent_id": "A001_active_senior",
+      "home_aoi_id": "AOI_W375791338",
+      "routine_anchor_aoi_id": "AOI_W258421187",
+      "regular_meeting_aoi_ids": [
+        "AOI_W877538245"
+      ]
+    },
+    {
+      "agent_id": "A002_routine_senior",
+      "home_aoi_id": "AOI_W452987477",
+      "routine_anchor_aoi_id": "AOI_N12002341738",
+      "regular_meeting_aoi_ids": [
+        "AOI_W877538245"
+      ]
+    },
+    {
+      "agent_id": "A003_limited_senior",
+      "home_aoi_id": "AOI_W440471986",
+      "routine_anchor_aoi_id": "AOI_N12002583161",
+      "regular_meeting_aoi_ids": [
+        "AOI_W877538245"
+      ]
+    }
+  ]
+}

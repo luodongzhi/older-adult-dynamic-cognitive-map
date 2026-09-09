@@ -1,0 +1,82 @@
+{
+  "source": {
+    "path": "D:\\myself_file\\research_file\\cognitive_map_agent\\code\\github_release\\older-adult-dynamic-cognitive-map\\osmmap\\map.osm",
+    "sha256": "e557fef6407e5381be1555b032e2f2832654eb8d36d3b01efd4a1a823f68837d",
+    "osm_license": "ODbL 1.0; © OpenStreetMap contributors",
+    "bounds_wgs84": {
+      "minlat": 22.400882,
+      "minlon": 113.969931,
+      "maxlat": 22.406927,
+      "maxlon": 113.981743
+    },
+    "raw_node_count": 11615,
+    "raw_way_count": 1556,
+    "raw_relation_count": 310
+  },
+  "projection": {
+    "authority": [
+      "EPSG",
+      "32649"
+    ],
+    "name": "WGS 84 / UTM zone 49N",
+    "metric": true
+  },
+  "walk_network": {
+    "walk_components_before_pruning": 5,
+    "walk_nodes_before_pruning": 2955,
+    "walk_edges_before_pruning": 3163,
+    "largest_component_node_ratio": 0.9864636209813875,
+    "walk_nodes_after_pruning": 2915,
+    "walk_edges_after_pruning": 3126,
+    "final_node_count": 3246,
+    "final_edge_count": 3459,
+    "final_component_count": 1,
+    "final_largest_component_ratio": 1.0
+  },
+  "facilities": {
+    "aoi_count": 336,
+    "by_function": {
+      "CAFE": 48,
+      "HOME": 156,
+      "PARK": 21,
+      "SHOP": 58,
+      "WORK": 53
+    },
+    "building_occluder_count": 266
+  },
+  "entrances": {
+    "total": 341,
+    "by_source": {
+      "INFERRED_NEAREST_WALK_NODE": 217,
+      "OSM_ENTRANCE": 11,
+      "OSM_GATE": 4,
+      "POI_POINT": 109
+    },
+    "raw_osm_entrance_or_gate_count": 30,
+    "used_osm_entrance_or_gate_count": 15,
+    "orphan_osm_entrance_or_gate_count": 15,
+    "aoi_without_entrance_count": 0,
+    "connector_length_mean_m": 15.304695856781144,
+    "connector_length_median_m": 12.49834335749773,
+    "connector_length_max_m": 55.92963596639293,
+    "connector_over_50m_count": 3,
+    "connector_over_100m_count": 0,
+    "orphan_osm_ids": [
+      "1710826229",
+      "1716516777",
+      "1735275998",
+      "2632167509",
+      "4778943884",
+      "4778943888",
+      "9771023555",
+      "11268925469",
+      "11968881134",
+      "11968881135",
+      "11968884768",
+      "11968884769",
+      "11968884806",
+      "11974932311",
+      "12299491839"
+    ]
+  }
+}
