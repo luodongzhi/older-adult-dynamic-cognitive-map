@@ -1,0 +1,13 @@
+[
+  {
+    "intervention_id": "INT_DAY2_SHOP_TO_PARK",
+    "effective_day": 2,
+    "operation_type": "AOI_FUNCTION_CHANGE",
+    "target_type": "AOI",
+    "target_id": "6",
+    "before_value": "SHOP",
+    "after_value": "PARK",
+    "visibility_level": 0.9,
+    "announcement_level": 0.0
+  }
+]
