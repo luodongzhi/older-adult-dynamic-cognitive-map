@@ -1,0 +1,56 @@
+[
+  {
+    "agent_id": "A001_active_senior",
+    "home_aoi_id": "AOI_W375791338",
+    "home_name": "住宅 OSM W375791338",
+    "routine_anchor_aoi_id": "AOI_W258421187",
+    "routine_anchor_name": "屯門青洋休憩花園",
+    "routine_anchor_function": "PARK",
+    "regular_meeting_aoi_ids": [
+      "AOI_W877538245"
+    ],
+    "meeting_name": "井財休憩處",
+    "meeting_function": "PARK",
+    "home_to_anchor_distance_m": 671.0,
+    "home_to_meeting_distance_m": 720.9,
+    "route_time_min": 9.1,
+    "activity_radius_m": 1200.0,
+    "binding_radius_multiplier": 1.0
+  },
+  {
+    "agent_id": "A002_routine_senior",
+    "home_aoi_id": "AOI_W452987477",
+    "home_name": "第五座",
+    "routine_anchor_aoi_id": "AOI_N12002341738",
+    "routine_anchor_name": "OK便利店",
+    "routine_anchor_function": "SHOP",
+    "regular_meeting_aoi_ids": [
+      "AOI_W877538245"
+    ],
+    "meeting_name": "井財休憩處",
+    "meeting_function": "PARK",
+    "home_to_anchor_distance_m": 428.3,
+    "home_to_meeting_distance_m": 499.5,
+    "route_time_min": 5.7,
+    "activity_radius_m": 850.0,
+    "binding_radius_multiplier": 1.0
+  },
+  {
+    "agent_id": "A003_limited_senior",
+    "home_aoi_id": "AOI_W440471986",
+    "home_name": "住宅 OSM W440471986",
+    "routine_anchor_aoi_id": "AOI_N12002583161",
+    "routine_anchor_name": "Lee Kwan Hong",
+    "routine_anchor_function": "SHOP",
+    "regular_meeting_aoi_ids": [
+      "AOI_W877538245"
+    ],
+    "meeting_name": "井財休憩處",
+    "meeting_function": "PARK",
+    "home_to_anchor_distance_m": 296.5,
+    "home_to_meeting_distance_m": 281.9,
+    "route_time_min": 4.0,
+    "activity_radius_m": 600.0,
+    "binding_radius_multiplier": 1.0
+  }
+]
