@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "intervention.schema.json",
+  "title": "Cognitive-map simulation intervention list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "intervention_id",
+      "effective_day",
+      "operation_type",
+      "target_type",
+      "target_id",
+      "before_value",
+      "after_value"
+    ],
+    "properties": {
+      "intervention_id": {"type": "string", "minLength": 1},
+      "effective_day": {"type": "integer", "minimum": 0},
+      "operation_type": {
+        "enum": [
+          "ROAD_OPEN",
+          "ROAD_CLOSE",
+          "AOI_FUNCTION_CHANGE",
+          "ENTRANCE_OPEN",
+          "ENTRANCE_CLOSE",
+          "SIGNAGE_ACTIVATE",
+          "SIGNAGE_DEACTIVATE"
+        ]
+      },
+      "target_type": {"enum": ["ROAD_EDGE", "AOI", "ENTRANCE", "SIGNAGE"]},
+      "target_id": {"type": "string", "minLength": 1},
+      "before_value": {"type": "string"},
+      "after_value": {"type": "string"},
+      "visibility_level": {"type": "number", "minimum": 0, "maximum": 1},
+      "announcement_level": {"type": "number", "minimum": 0, "maximum": 1},
+      "visual_salience": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+      "official_announcement": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+      "signage_support": {"type": "number", "minimum": 0, "maximum": 1}
+    }
+  }
+}
