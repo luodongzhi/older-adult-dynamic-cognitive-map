@@ -1,0 +1,30 @@
+[
+  {
+    "intervention_id": "INT_DAY03_LOCAL_SHOP_TO_PARK",
+    "effective_day": 3,
+    "operation_type": "AOI_FUNCTION_CHANGE",
+    "target_type": "AOI",
+    "target_id": "AOI_N12002341738",
+    "before_value": "SHOP",
+    "after_value": "PARK",
+    "visibility_level": 0.9,
+    "announcement_level": 0.0,
+    "visual_salience": 0.9,
+    "official_announcement": 0.0,
+    "signage_support": 0.0
+  },
+  {
+    "intervention_id": "INT_DAY06_ACTIVITY_ROUTE_CLOSE",
+    "effective_day": 6,
+    "operation_type": "ROAD_CLOSE",
+    "target_type": "ROAD_EDGE",
+    "target_id": "E_W159542987_0002",
+    "before_value": "OPEN",
+    "after_value": "CLOSED",
+    "visibility_level": 0.95,
+    "announcement_level": 0.0,
+    "visual_salience": 0.95,
+    "official_announcement": 0.0,
+    "signage_support": 0.0
+  }
+]

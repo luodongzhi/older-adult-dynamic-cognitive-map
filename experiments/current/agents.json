@@ -1,0 +1,12 @@
+{
+  "agent_repository": "agents",
+  "location_binding": {
+    "mode": "generated",
+    "file": "osmmap/processed/agent_bindings.json"
+  },
+  "selected_agents": [
+    "A001_active_senior",
+    "A002_routine_senior",
+    "A003_limited_senior"
+  ]
+}

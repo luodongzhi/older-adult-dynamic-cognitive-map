@@ -1,0 +1,28 @@
+{
+  "api_file": "api.txt",
+  "llm_provider": "doubao",
+  "llm_model": "doubao-seed-2-1-pro-260628",
+  "run_research_suite": true,
+  "research_models": [
+    "B0",
+    "B1",
+    "M"
+  ],
+  "model_label": "M",
+  "scenario_id": "osm_older_adult_neighbourhood",
+  "minimum_agent_age": 60,
+  "directional_vision_enabled": true,
+  "direct_experience_enabled": true,
+  "face_to_face_enabled": true,
+  "copresence_min_overlap_minutes": 8.0,
+  "max_reports_per_conversation": 2,
+  "export_research_csv": true,
+  "days": 10,
+  "seed": 42,
+  "experiment_id": "osm_older_adults",
+  "output_database": "output/osm_older_adults.db",
+  "start_dashboard": true,
+  "open_browser": true,
+  "dashboard_host": "127.0.0.1",
+  "dashboard_port": 8765
+}
